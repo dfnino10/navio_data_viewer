@@ -3,6 +3,7 @@ var router = express.Router();
 
 const MongoClient = require('mongodb').MongoClient;
 
+
 const url = 'mongodb+srv://user:password@cluster0-xlopf.mongodb.net/test?retryWrites=true&w=majority';
 
 const client = new MongoClient(url);
