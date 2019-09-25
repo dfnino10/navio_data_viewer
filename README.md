@@ -17,11 +17,12 @@ And once again ```npm install```
 
 ## Author
  David Felipe Niño Romero
-    https://github.com/dfnino10
-    https://dfnino10.github.io/davidnino/
+    [Github](https://github.com/dfnino10)
+    [Personal](https://dfnino10.github.io/davidnino/)
     
 ## Screenshot
-
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 ## Description
 
