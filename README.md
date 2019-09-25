@@ -38,7 +38,7 @@ Available datasets:
 https://navio-data-viewer.herokuapp.com/
 
 ## Demo 
-[![Demo Video](https://youtu.be/c_J3mnTBBX8)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE) 
+[![Demo Video](https://raw.githubusercontent.com/dfnino10/navio_data_viewer/master/navigo-data-viewer.png)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE) 
 
 ## Technologies
 - Backend with Node+Express
