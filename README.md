@@ -21,8 +21,8 @@ And once again ```npm install```
     [Personal](https://dfnino10.github.io/davidnino/)
     
 ## Screenshot
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+![Screenshot](https://raw.githubusercontent.com/dfnino10/navio_data_viewer/master/preview.png)
 
 ## Description
 
