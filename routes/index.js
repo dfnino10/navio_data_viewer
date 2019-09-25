@@ -4,19 +4,19 @@ var router = express.Router();
 const MongoClient = require('mongodb').MongoClient;
 
 
-const url = 'mongodb+srv://user:password@cluster0-xlopf.mongodb.net/test?retryWrites=true&w=majority';
+const url = 'mongodb+srv://dfnino10:DB_Password123@cluster0-xlopf.mongodb.net/test?retryWrites=true&w=majority';
 
 const client = new MongoClient(url);
 
-const readTweets = (resolve, reject) => {
+const getDatabaseInfo = (database, offset, limit ,resolve, reject) => {
   client.connect((err) => {
     if (err){
       reject(err);
       throw err;
     }
     let db = client.db('DavidDb');
-    let colTweets = db.collection('Tweets');
-    colTweets.find({}).toArray((err, data) => {
+    let colTweets = db.collection(database);
+    colTweets.find({}).skip(offset).limit(limit).toArray((err, data) => {
       if (err) reject(err);
       resolve(data);
     });
@@ -25,8 +25,14 @@ const readTweets = (resolve, reject) => {
 
 
 /* GET tweets. */
-router.get('/tweets', function(req, res) {
-  readTweets(
+router.get('/:database', function(req, res) {
+  var database = req.params.database;
+  var offset = req.query.$offset ? req.query.$offset : 0;
+  var limit = req.query.$limit ? req.query.$limit : 100 ;
+  getDatabaseInfo(
+    database,
+    parseInt(offset),
+    parseInt(limit),
     (data) => res.json(data),
     (err) => res.send(err));
 });
