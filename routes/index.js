@@ -4,7 +4,7 @@ var router = express.Router();
 const MongoClient = require('mongodb').MongoClient;
 
 
-const url = 'mongodb+srv://dfnino10:DB_Password123@cluster0-xlopf.mongodb.net/test?retryWrites=true&w=majority';
+const url = process.env.BD;
 
 const client = new MongoClient(url);
 
