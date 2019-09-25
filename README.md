@@ -38,7 +38,7 @@ Available datasets:
 https://navio-data-viewer.herokuapp.com/
 
 ## Demo 
-https://youtu.be/c_J3mnTBBX8
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c_J3mnTBBX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Technologies
 - Backend with Node+Express
