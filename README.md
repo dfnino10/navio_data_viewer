@@ -6,10 +6,10 @@ Develop a web app that makes easier to display data stored in a Mongo Database.
 
 ## How to run 
 
-# Requisites:
+## Requisites:
 NodeJs
 
-# Run locally
+### Run locally
 On root folder, run: 
 ```npm install```
 Then ```cd navio_front``` 
