@@ -1,10 +1,10 @@
 .title {
   text-align: center;
+  padding: 10px;
 }
 
 #main-title {
   background-color: #00c2c7;
-  padding: 10px;
   color: #FFFFFF;
   letter-spacing: 3px;
   word-spacing: 5px;

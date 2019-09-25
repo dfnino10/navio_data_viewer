@@ -74,18 +74,18 @@ class App extends React.Component {
         </div>
         <div className="container" id="content">
           <div className="title">
-            <h3 className="second-title">Choose a database</h3>
+            <h3 className="second-title">Choose a dataset</h3>
           </div>
           <form className="form-inline">
             <div className="form-group mb-2">
-              <label type="text" id="Database label">Database name:</label>
+              <label type="text" id="Database label">Dataset name:</label>
             </div>
             <div className="form-group mx-sm-3 mb-2">
               <input
                 type="text"
                 className="form-control"
                 id="database-input"
-                placeholder="DB"
+                placeholder="Dataset"
                 value={this.state.database}
                 onChange={this.handleChange}
               />
